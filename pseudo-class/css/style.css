@@ -1,0 +1,29 @@
+body {
+    background-color: wheat;
+}
+.hello {
+    color: orange;
+}
+.hello:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    font-size: 20px;
+}
+.hello:active {
+    font-style: italic;
+}
+.hello:visited {
+    color: red;
+}
+li:nth-child(even) a {
+    color: green;
+}
+li:nth-child(even) a:hover {
+    color: red;
+}
+p:first-of-type {
+    color: blue;
+}
+p:last-of-type {
+    color: red;
+}
